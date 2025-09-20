@@ -47,7 +47,7 @@ public class FileAppender implements Appender {
     public void close() {
         synchronized (this) {
             try { if (writer != null) writer.close(); }
-            catch (IOException e) { /* ignore on close */ }
+            catch (IOException e) { }
         }
     }
 }

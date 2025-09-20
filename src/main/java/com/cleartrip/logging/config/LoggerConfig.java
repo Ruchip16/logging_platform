@@ -7,7 +7,7 @@ import java.util.*;
 
 public class LoggerConfig {
     private final Map<LogLevel, List<Appender>> perLevelAppenders = new EnumMap<>(LogLevel.class);
-    private LogLevel rootLevel = LogLevel.DEBUG; // default
+    private LogLevel rootLevel = LogLevel.DEBUG;
 
     public LoggerConfig() {
         for (var lvl : LogLevel.values()) perLevelAppenders.put(lvl, new ArrayList<>());

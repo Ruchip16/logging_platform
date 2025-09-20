@@ -106,9 +106,9 @@ public class LoggerImpl implements Logger {
         for (var entry : levelToAppenders.entrySet()) {
             var list = entry.getValue();
             synchronized (list) {
-                for (Appender a : list) a.close();
+                for (Appender a : list) {
+                    a.close();
+                }
                 list.clear();
             }
-        }
-    }
 }

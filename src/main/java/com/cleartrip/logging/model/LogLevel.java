@@ -1,8 +1,5 @@
 package com.cleartrip.logging.model;
-/**
- * Lower numeric value = more severe.
- * Relationship: ERROR(1) <- WARNING(2) <- INFO(3) <- DEBUG(4)
- */
+
 public enum LogLevel {
     ERROR(1), WARNING(2), INFO(3), DEBUG(4);
 
