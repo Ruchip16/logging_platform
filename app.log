@@ -1,3 +1,6 @@
 2025-09-20T11:24:30.421068 | INFO | OrderService | main | This is my first log with id: 42
 2025-09-20T11:24:30.422534 | ERROR | OrderService | main | I got the error NullPointer for id 42
 2025-09-20T11:24:30.766408 | INFO | OrderService | main | Info after attaching network: two args
+2025-09-20T12:07:48.877168 | INFO | OrderService | main | This is my first log with id: 42
+2025-09-20T12:07:48.878750 | ERROR | OrderService | main | I got the error NullPointer for id 42
+2025-09-20T12:07:49.205097 | INFO | OrderService | main | Info after attaching network: two args
