@@ -11,6 +11,7 @@ import com.cleartrip.logging.model.LogLevel;
 import java.nio.file.Path;
 import java.util.List;
 
+// extensible logging framework that filters by level and supports runtime reconfiguration
 public class Driver {
     public static void main(String[] args) throws Exception {
         LoggerConfig cfg = new LoggerConfig();
