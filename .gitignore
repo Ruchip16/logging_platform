@@ -1,0 +1,26 @@
+# Build outputs
+/build/
+/app/build/
+*.class
+
+# Log files
+*.log
+app.log
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# Gradle
+.gradle/
+gradle-wrapper.jar
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
